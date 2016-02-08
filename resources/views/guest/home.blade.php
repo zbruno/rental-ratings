@@ -5,4 +5,5 @@
 @stop
 
 @section('content')
+    <div id="react-app"></div>
 @stop
