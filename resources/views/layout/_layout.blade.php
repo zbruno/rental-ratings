@@ -6,5 +6,7 @@
     </head>
     <body>
         @yield('content')
+
+        @include('layout.sections._scripts')
     </body>
 </html>
