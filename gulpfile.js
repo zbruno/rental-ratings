@@ -5,6 +5,9 @@ elixir(function(mix) {
         .version([
             'css/app.css',
         ])
+        .browserify([
+            'resources/assets/jsx/app.js'
+        ], 'public/build/js/app.js')
         .browserSync({
             proxy: 'rentalratings.dev',
             tunnel: false,
