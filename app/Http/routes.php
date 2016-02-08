@@ -14,15 +14,6 @@ Route::group([
     ]);
 });
 
-Route::get('cards', [
-    'as' => 'cards',
-    'uses' => 'CardsController@index'
-]);
-
-Route::get('cards/{card}', [
-    'uses' => 'CardsController@show'
-]);
-
 
 
 /*
