@@ -14,6 +14,11 @@ Route::group([
     ]);
 });
 
+Route::group([
+    'prefix' => 'api'
+], function() {
+    Route::resource('rentals', 'RentalsController');
+});
 
 
 /*

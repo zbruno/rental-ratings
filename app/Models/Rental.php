@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Card extends Model
+class Rental extends Model
 {
-    //
+    protected $fillable = array('*');
 }
